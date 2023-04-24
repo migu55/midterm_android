@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B99F9E"
+    android:orientation="vertical"
+    tools:context=".ContactFragment">
+
+    <TextView
+        android:id="@+id/textView_contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:text="@string/contact_us"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_contact_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/address_123_hippo_way"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:text="@string/phone_1_888_hippozoo"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_contact_warning"
+        android:layout_width="293dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:text="@string/we_have_been_getting_many_complains_that_one_of_our_hippos_is_actually_a_rhino_if_you_know_which_one_it_is_please_submit_it_s_name_below"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView_contact_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/submit" />
+</LinearLayout>

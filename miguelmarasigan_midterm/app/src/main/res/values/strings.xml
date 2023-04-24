@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">miguelmarasigan_midterm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meet_the_hippos">Meet The Hippos!</string>
+    <string name="set_fail">Please Input a Name.</string>
+    <string name="pass_name">Submitted.</string>
+    <string name="pass_craig">Submitted :D</string>
+    <string name="address_123_hippo_way">Address: 123 Hippo Way</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="phone_1_888_hippozoo">Phone: 1-888-hippozoo</string>
+    <string name="we_have_been_getting_many_complains_that_one_of_our_hippos_is_actually_a_rhino_if_you_know_which_one_it_is_please_submit_it_s_name_below">We have been getting many complains that one of our hippos is actually a rhino. If you know which one it is please submit it\'s name below:</string>
+    <string name="submit">submit</string>
+    <string name="name">Name</string>
+    <string name="name_inv">Name:</string>
+    <string name="age_inv">Age:</string>
+    <string name="food_inv">Favourite Food:</string>
+    <string name="hippo_inv">A hippo.</string>
+</resources>
